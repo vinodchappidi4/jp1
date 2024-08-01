@@ -33,7 +33,7 @@ const frontendDir = path.join(__dirname, 'JP-frontend');
 async function start() {
   try {
     console.log('Starting JP-backend...');
-    await runCommand('npm run', backendDir);
+    await runCommand('npm start', backendDir);
 
     console.log('Starting JP-frontend...');
     await runCommand('npm run dev', frontendDir);
